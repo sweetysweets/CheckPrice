@@ -1,4 +1,4 @@
-package util;
+package org.edu.nju.util;
 
 
 import java.io.IOException;  
@@ -6,7 +6,9 @@ import java.util.ArrayList;
 import java.util.List;  
 import java.util.Scanner;
 
-import dao.SynonymTableDao;  
+import org.edu.nju.dao.SynonymTableDao;
+
+
   
 /** 
  * 基于正逆双向最大匹配分词算法实现  
